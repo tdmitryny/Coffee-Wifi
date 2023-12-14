@@ -65,5 +65,15 @@ def cafes():
     return render_template('cafes.html', cafes=list_of_rows)
 
 
+# with open('cafe-data.csv', newline='', encoding='utf-8') as csv_file:
+#     print(csv_file)
+#     csv_data = csv.reader(csv_file, delimiter=',')
+#     print(csv_data)
+#     list_of_rows = []
+#     for row in csv_data:
+#         list_of_rows.append(row)
+
+
+
 if __name__ == '__main__':
     app.run(debug=True)
